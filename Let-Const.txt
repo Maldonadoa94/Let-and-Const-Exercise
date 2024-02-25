@@ -30,7 +30,7 @@ A: Hoisting is a property of var variables that are "hoisted" or raised to the t
    ------------------------------
    /* Write an ES2015 Version */
    let PI = 3.14;
-   PI = 3.14; //Will work, to stop this, use const instead of PI
+   PI = 3.14; //Will work, to stop this, use const instead of let
 
    const PI = 3.14;
    PI = 42; //Will not work
